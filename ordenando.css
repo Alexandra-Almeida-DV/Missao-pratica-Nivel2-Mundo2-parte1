@@ -1,0 +1,31 @@
+body {
+    color :bisque;
+    background-color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#input{ 
+    flex-direction: row;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#select {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 12rem;
+}
+
+#valor {
+    width: 10rem;
+    padding: 0%;
+}
+
+#add {
+    width: 100px;
+    padding: 1%;
+    border-radius: 5%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+

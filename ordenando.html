@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ordenando.css">
+    <title>Ordenando_Valores</title>
+</head>
+<body>
+    <h1>Ordenando Valores</h1>
+    <a>Valor</a><br>
+ <div class="content">
+    <div class="content--add-item">
+    <input type="number" id="input-new-valor" placeholder="Digite um valor"><br><br>
+    <button onclick="newTask()" id="btn-new-add">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-square" viewBox="0 0 16 16">
+            <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+          </svg>
+    </button>      
+ </div><br><br>
+ <div>
+        <select id="select">
+            <option1>Bubble Sort</option1>
+            <option2>Selection Sort</option2>
+            <option3>Quick Sort</option3>
+        </select>
+</div><br>
+<div>
+    <input id="input" type="submit" value="Ordenar">
+    <input id="input" type="submit" value="Misturar">
+</div>
+<div class="content--body">
+    <ul id="to-do-list"></ul>
+</div>
+ </div>
+</body>
+<script src="ordenando.js"></script>
+</html>
